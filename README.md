@@ -18,6 +18,6 @@ Note that the configuration bits are inverted, as described in the datasheet of 
 * Fuses can only be set through SPI interfaces, not DebugWire. This is a popup message that sometimes appears. Even if you let MCC generate the fuse settings in source code, fuses will not be altered. To successfully set fuses, the SPI interface needs to be selected in the project properties after which you can open ‘Production’>’Set Configuration Bits’. This tool lets you read and write configuration bits (fuses) through the SPI interface. As a bonus, this tool also shows you the desired value and the programmed value (inverted) together with the description of the fuse.
 * The F_CPU value is grayed out in the MCC and is set default to 32000. Since the xtal on the Arduino board is 16Mhz, this value needs to be corrected in order to get the timings right. This value can be changed in ‘cpu.h’ but will be overwritten every time the MCC generates new/updated content. To overcome this you can add #define F_CPU 16000000 directly in your main.h, before the system includes.
 
-Example of functional fuse settings:
+Example of working fuse settings:
 ![image](https://github.com/sambuls/FreeRTOSonAtmega328MPLAB/assets/10206545/6ca6bbf3-a45d-40ea-ac1e-69ef02cf1b8f)
 
