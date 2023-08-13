@@ -9,7 +9,7 @@
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
-                <sourceRootElem>FreeRTOS/Source</sourceRootElem>
+                <sourceRootElem>FreeRTOS</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

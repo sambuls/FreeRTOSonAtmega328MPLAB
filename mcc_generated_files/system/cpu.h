@@ -39,7 +39,7 @@
 @brief Defines the system clock frequency.
 */
 #ifndef F_CPU
-#define F_CPU 8000000
+#define F_CPU 16000000//32000
 #endif
 
 

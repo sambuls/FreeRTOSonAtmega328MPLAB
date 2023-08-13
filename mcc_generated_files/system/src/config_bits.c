@@ -44,8 +44,8 @@ FUSES =
  .extended = 0x7, 
 
  
-.high = 0x8f ,
+.high = 0x9e ,
  
 
-.low = 0x22 
+.low = 0xdf 
 };

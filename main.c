@@ -33,6 +33,7 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "mcc_generated_files/system/system.h"
+#include <util/delay.h>
 
 /*
     Main application
@@ -44,10 +45,15 @@ int main(void)
     SYSTEM_Initialize();
 
     xTaskCreate(TaskBlink1,"Task1",128,NULL,1,NULL);  
-    vTaskStartScheduler();   
+    vTaskStartScheduler();
 }
 
 void TaskBlink1(void *pvParameters) 
 {
-
+    const TickType_t xDelay = 500 / portTICK_PERIOD_MS;
+    
+    for(;;){
+        vTaskDelay( xDelay );
+        LED1_Toggle();
+    }
 }

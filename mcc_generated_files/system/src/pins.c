@@ -36,7 +36,7 @@
 void PIN_MANAGER_Initialize()
 {
   /* DIR Registers Initialization */
-    DDRB = 0x0;
+    DDRB = 0x3C;
     DDRC = 0x0;
     DDRD = 0x0;
 

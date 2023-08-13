@@ -30,7 +30,10 @@ build/default/production/main.o.d build/default/production/main.o: main.c \
  mcc_generated_files/system/../system/./port.h \
  mcc_generated_files/system/../system/./utils/compiler.h \
  mcc_generated_files/system/../system/cpuint.h \
- mcc_generated_files/system/../system/../system/utils/compiler.h
+ mcc_generated_files/system/../system/../system/utils/compiler.h \
+ c:\dev\avr8-gnu-toolchain-win32_x86_64\avr\include\util\delay.h \
+ c:\dev\avr8-gnu-toolchain-win32_x86_64\avr\include\util\delay_basic.h \
+ c:\dev\avr8-gnu-toolchain-win32_x86_64\avr\include\math.h
 
 FreeRTOS/Source/include/FreeRTOS.h:
 
@@ -101,3 +104,9 @@ mcc_generated_files/system/../system/./utils/compiler.h:
 mcc_generated_files/system/../system/cpuint.h:
 
 mcc_generated_files/system/../system/../system/utils/compiler.h:
+
+c:\dev\avr8-gnu-toolchain-win32_x86_64\avr\include\util\delay.h:
+
+c:\dev\avr8-gnu-toolchain-win32_x86_64\avr\include\util\delay_basic.h:
+
+c:\dev\avr8-gnu-toolchain-win32_x86_64\avr\include\math.h:
